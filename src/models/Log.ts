@@ -5,7 +5,7 @@ const logSchema = new mongoose.Schema({
   datetime: Date,
   method: {
     type: String,
-    enum: ['getIssues', 'getIssue'],
+    enum: ['getIssues', 'getIssuesCount', 'getIssue'],
   },
 });
 const Log = mongoose.model('Log', logSchema);
