@@ -3,8 +3,9 @@ Server for GitHub Issue Explorer App
 
 ## Endpoints
 ### Issues
-- GET /issues
-- GET /issues/:id
+- GET /issues/:user/:repo
+- GET /issues/:user/:repo/count
+- GET /issues/:user/:repo/:number
 
 ### Logs
 - GET /logs
