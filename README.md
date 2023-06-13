@@ -16,3 +16,10 @@ Server for GitHub Issue Explorer App
 - Express
 - Mongoose
 - MongoDB
+
+## How to run
+- Clone this repository
+- Run `docker-compose up`
+- Create a `.env` file and fill it according to `.env.example`
+- Run `npm install`
+- Run `npm start`
